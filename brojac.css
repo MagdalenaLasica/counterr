@@ -1,0 +1,10 @@
+*{
+background-color: rgb(3, 81, 81);
+color: aliceblue;
+font-family: 'Courier New', Courier, monospace;
+}
+button{
+    background-color: rgb(17, 28, 28);
+    border-radius: 20%;
+    height: auto;
+}

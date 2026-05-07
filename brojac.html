@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brojac</title>
+    <link rel="stylesheet" href="brojac.css" > 
+</head>
+<body>
+<div class="kutija">
+   <button class="klikni"></button> 
+  <script src="brojac.js"></script>
+  <h2>Brojac klikova</h2>
+  <button onclick="povecajBrojac()">Klikni</button>
+  <p>Broj klikova: <span id="brojac">0</span> </p>;
+
+  <button id="reset">Reset</button> <br />
+  <button id="smanji">Smanji</button>
+</div>
+<script>
+    const klikni = document.querySelector(`klikni`);
+    const brojac = document.getElementById(`brojac`);
+    const reset  = document.getElementById(`reset`);
+    const smanji = document.getElementById(`smanji`);
+</script>
+</body>
+</html>
